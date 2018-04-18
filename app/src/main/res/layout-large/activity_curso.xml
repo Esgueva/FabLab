@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:baselineAligned="false">
+
+    <fragment
+        android:id="@+id/fragmento_curso"
+        android:name="com.fablabburgos.fablabburgos.vista.curso.FragmentoCurso"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragmento_curso" />
+
+    <fragment
+        android:id="@+id/fragmento_curso_detalle"
+        android:name="com.fablabburgos.fablabburgos.vista.curso.FragmentoCursoDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragmento_curso_detalle" />
+
+
+
+</LinearLayout>
